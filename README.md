@@ -13,12 +13,17 @@ A reusable multi-agent setup for turning ideas into portfolio-ready projects wit
 
 Advocate sits in both groups so it can monitor Forge and relay information to and from the Project Group.
 
+Response order is fixed for token efficiency:
+- Project Group: Critic → Advocate → Expert → Critic (clear or new cycle) until agreement.
+- Forge: Advocate first, then Coordinator delegates. Others stay silent unless assigned.
+
 ## How to use
 
-1. Copy `harness-template.md` and fill in the fields.
+1. Copy `harness-template.md` and fill in the fields at the top.
 2. Paste the completed template (the whole file) into a Grok conversation.
-3. Grok will create the bots, wire the protocols (including the Engineer and Advocate standing instructions contained in the template), and walk you through GitHub token setup.
-4. Start a project by messaging the Project Group with a short intent statement.
+3. Grok will create the bots, wire the protocols (including the response order and standing instructions contained in the template), and walk you through GitHub token setup.
+4. Start a project by messaging the Project Group with a project intent statement.
+5. Iron out the ticket queue in Project Group for the new project, then initiate the project to trigger the flow. 
 
 No other files need to be uploaded. Everything required is inside the template.
 
