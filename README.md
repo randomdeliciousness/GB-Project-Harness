@@ -45,3 +45,7 @@ During setup Grok will ask whether you want progress checks. Example: Coordinato
 ## Customization
 
 All role names are defaults. Rename them in the template before uploading. Grok will also recommend extra groups (business, hosting, etc.) based on your goals — you decide what to add.
+
+## Example
+
+- [Sir Sparks-a-lot project breakdown](examples/sir-sparks-a-lot-breakdown.md): a case study of the harness running a private game project for two days. It covers the tickets, builds, and pushes the team handled on its own, and the pauses that needed the owner.
